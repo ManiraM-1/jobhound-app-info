@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JobHound — Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.6; color: #222; }
+  h1 { margin-bottom: 0.25rem; }
+  a { color: #0b5fff; }
+  code { background: #f2f2f2; padding: 0.1rem 0.3rem; border-radius: 3px; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>JobHound is a single-user personal tool. There is exactly one user:
+  its owner and operator, Maniram Tatipamula. It is not distributed,
+  marketed, or made available to anyone else, and it does not knowingly
+  collect, process, or store data belonging to any other person.</p>
+
+  <h2>What it accesses, and why</h2>
+  <ul>
+    <li><strong>Gmail — send only</strong> (<code>gmail.send</code> scope).
+    JobHound can send email as the owner, to compose and submit job
+    applications. It cannot read, search, or modify any existing mail —
+    the scope it requests makes that technically impossible, not just a
+    policy promise.</li>
+    <li><strong>Google Drive — read only</strong>
+    (<code>drive.readonly</code> scope). JobHound reads a small, fixed set
+    of files the owner maintains there — resume PDFs and a personal
+    "application kit" of facts/skills/projects — so it always applies with
+    current, accurate information. It does not write, modify, or delete
+    anything in Drive, and does not access files outside what it's
+    configured to look for.</li>
+    <li><strong>A private Telegram group</strong>, read-only, to find job
+    leads. This is unrelated to the Google account access above.</li>
+  </ul>
+
+  <h2>What it does with that access</h2>
+  <p>Extracted job details (company, role, pay, location) and the content
+  of composed application emails are used only to send that one
+  application. Full source text of any Telegram post is never stored
+  persistently. No data collected here is sold, shared, or made available
+  to any third party.</p>
+
+  <h2>Data retention</h2>
+  <p>A small local database tracks which job postings have already been
+  acted on, to avoid duplicate applications. It contains structured job
+  metadata only (company, role, outcome) — never full message text, never
+  email credentials, and it is private to the owner.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this tool or its data handling: contact the owner at
+  the email address associated with the Google account that authorizes it.</p>
+</body>
+</html>
